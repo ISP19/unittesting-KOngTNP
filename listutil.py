@@ -15,7 +15,18 @@ def unique(list):
     >>> unique([])
     []
     """
-    pass   # remove this and write the actual code
+    list_1 = []
+    for i in list:
+        if i not in list_1:
+            list_1.append(i)
+    return list_1
+
+def average(list):
+    if len(list) == 0:
+        raise ValueError
+    result = sum(list)/len(list)
+
+    return result
 
 if __name__ == "__main__":
     """Run the doctests in all methods."""
