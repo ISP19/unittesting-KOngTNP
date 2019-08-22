@@ -14,9 +14,6 @@ class Fraction:
         gcd = math.gcd(numerator, denominator)
         self.numerator = int(numerator/gcd)
         self.denominator = int(denominator/gcd)
-
-
-
         if self.denominator < 0:
             self.numerator = -self.numerator
             self.denominator = - self.denominator
@@ -33,22 +30,34 @@ class Fraction:
 
 
     def __sub__(self,frac):
+        """
+        a/b - c/d = (ad-bc)/(b*d)
+        """
         numerator = self.numerator * frac.denominator - self.denominator * frac.numerator
         denominator = self.denominator * frac.denominator
         return Fraction(numerator, denominator)
 
     
     def __gt__(self, frac):
+        """
+        fraction
+        """
         return (self.numerator/self.denominator) > (frac.numerator/frac.denominator)
 
 
     def __mul__(self,frac):
+        """
+        a/b * c/d = (a*c)/(b*d)
+        """
         numerator = self.numerator * frac.numerator
         denominator = self.denominator * frac.denominator
         return Fraction(numerator, denominator)
 
 
     def __str__(self):
+        """
+        print fraction
+        """
         if self.denominator == 0:
             return "0 can't be denominatory"
         elif self.denominator == -1 or self.denominator == 1:
