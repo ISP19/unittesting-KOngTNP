@@ -19,3 +19,12 @@ Write a table describing your test cases.
 
 
 ## Test Cases for Fraction
+| Test case              |  Expected Result    |
+|-------------------------|-----------------------------------|
+| Test init               |  Show least franction                    |
+| Test str                |  Return sum of Fraction                |
+| Test add                |  Return sum of Fraction + NewFraction                |
+| Test Fraction-Fraction  | Return sum of Fraction - NewFraction |
+| Test Fraction*Fraction  | Return sum of Fraction x NewFraction                  |
+| Test equal              |  Show the Fraction are equal            |
+| Test gt                 |  Show the Fraction > Fraction                    |

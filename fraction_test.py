@@ -99,6 +99,13 @@ class FractionTest(unittest.TestCase):
         self.assertFalse(f.__eq__(h))
         
 
+    def test_gt(self):
+        self.assertFalse(Fraction(2,12)>Fraction(10,2))
+        self.assertFalse(Fraction(1,15)>Fraction(5,3))
+        self.assertTrue(Fraction(2,2)>Fraction(2,5))
+        self.assertTrue(Fraction(10,1)>Fraction(2,3))
+
+
 
 if __name__ == '__main__':
     unittest.main()
