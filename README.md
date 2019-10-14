@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/your_acctid/demo-pyci.svg?branch=master)](https://travis-ci.com/your_acctid/demo-pyci)
+
 ## Unit Testing Assignment
 
 by Tanapol Buangam.
