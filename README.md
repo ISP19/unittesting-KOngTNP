@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.com/your_acctid/demo-pyci.svg?branch=master)](https://travis-ci.com/your_acctid/demo-pyci)
 
+
+[![codecov](https://codecov.io/gh/KOngTNP/unittesting-KOngTNP/branch/master/graph/badge.svg)](https://codecov.io/gh/KOngTNP/unittesting-KOngTNP)
+
 ## Unit Testing Assignment
 
 by Tanapol Buangam.
