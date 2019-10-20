@@ -8,8 +8,13 @@ git:
     
 # Install dependencies
 install:
+  
   - pip3 install -r requirements.txt
+  - pip install codecov
     
 # script to run tests. Script can have many commands, one per line.
 script: 
   - python3 -m unittest discover -p "*_test.py"
+
+after_success:
+  - codecov
