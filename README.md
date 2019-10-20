@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/your_acctid/demo-pyci.svg?branch=master)](https://travis-ci.com/your_acctid/demo-pyci)
+[![Build Status](https://travis-ci.com/KOngTNP/unittesting-KOngTNP.svg?branch=master)](https://travis-ci.com/KOngTNP/unittesting-KOngTNP)
 
 
 [![codecov](https://codecov.io/gh/KOngTNP/unittesting-KOngTNP/branch/master/graph/badge.svg)](https://codecov.io/gh/KOngTNP/unittesting-KOngTNP)
